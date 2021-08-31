@@ -11,7 +11,7 @@ namespace MvcTest.Controllers
         // GET: test
         public ActionResult Index()
         {
-            
+            ViewData["Info"] = "Hello";
             return View();
         }
     }
