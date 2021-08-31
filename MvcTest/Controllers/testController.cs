@@ -11,6 +11,7 @@ namespace MvcTest.Controllers
         // GET: test
         public ActionResult Index()
         {
+            
             return View();
         }
     }
